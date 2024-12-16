@@ -14,7 +14,7 @@ class WeatherApp(QWidget):
         self.setWindowTitle("Weather App")
         self.setGeometry(100, 100, 500, 300)
         self.setStyleSheet("background-color: #f0f4f8;")
-        self.setWindowIcon(QIcon("weather_icon.png"))  # Add your icon file if available
+        self.setWindowIcon(QIcon("weather_icon.png"))  
         self.initUI()
 
     def initUI(self):
